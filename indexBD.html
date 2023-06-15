@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.67">
+    <title>Banco de Dados</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body style="justify-content: center; text-align: center; ">     
+    <header>
+        <nav>
+          <ul>
+            <li><pre style="font-size: 35px;">&lt;/&gt;</pre></li>
+            <li><a href="#Sobre_mim">Sobre Mim</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+            <li><a href="#Meus_Projetos">Meus Projetos</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">
+                  <a href="#Conteudos">Conteúdos Aprendidos</a>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/indexLP.html">Linguagem de Programação</a>
+                  <a href="/indexRD.html">Redes</a>
+                  <a href="/indexBD.html">Banco de Dados</a>
+                  <a href="/indexCD.html">Ciência de Dados</a>
+                  <a href="/indexAI.html">Automação Industrial</a>
+                </div>
+            <li>
+                <input type="checkbox" id="chk" class="checkbox">
+                <label for="chk" class="label">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <span class="ball"></span>
+                </label>
+                
+            </li>
+              </li>
+          </ul>
+        </nav>
+    </header>
+
+    <a href="/index.html"><button style="height:50px; width: 70px; border-radius: 10px; background-color: #0459c2dd; color: #f5f5f5; font-size: 18px; margin-right: 70%; margin-top: 20px;">Voltar</button></a>
+
+    <h3 style="color: #0459c2dd; font-weight: 700; font-size: 59px; margin-top: 30px; margin-bottom: 90px;"><p>Banco de Dados</h3></p>
+
+    <section id="Conteudos">
+        <div class="conteúdos_lp">
+            <h3 style="color: #0459c2dd; font-weight: 700; font-size: 29px;">Modelagem de Dados </h3>
+    
+            <h4 class="definicao" style="text-align: left;color: #0459c2dd; margin-right: 81.75%; font-weight: 500; font-size: 22px;">DER<button style="margin-bottom: 20px;" id="botaoo">▼</button></h4>
+            <div id="textoo" style="display: none;">
+                <p style="text-align: left;">DER (Diagrama Entidade-Relacionamento): É uma representação gráfica que descreve as entidades (objetos ou conceitos) envolvidos em um sistema e os relacionamentos entre eles. O DER é composto por entidades, atributos e relacionamentos. As entidades são os objetos principais que queremos armazenar no banco de dados, como clientes, produtos ou pedidos. Os atributos são as características ou propriedades dessas entidades, como nome, idade ou preço. Os relacionamentos mostram como as entidades estão conectadas, como um cliente faz um pedido ou um produto pertence a uma determinada categoria. O DER nos ajuda a visualizar a estrutura do banco de dados e a compreender as relações entre as entidades.
+                </p>
+            </div>
+    
+            <h4 class="definicao" style="text-align: left;color: #0459c2dd; margin-right: 81.75%; font-weight: 500; font-size: 22px;">MER<button style="margin-bottom: 20px;" id="botao1">▼</button></h4>
+            <div id="texto1" style="display: none;">
+                <p style="text-align: left;">MER (Modelo Entidade-Relacionamento): É uma representação conceitual e abstrata dos dados que serão armazenados em um banco de dados. O MER é uma etapa anterior ao DER e oferece uma visão mais ampla e independente de qualquer sistema específico. Ele descreve as entidades principais, seus atributos e os relacionamentos entre elas. O objetivo do MER é fornecer uma representação clara e precisa da estrutura de dados, independentemente da implementação técnica. Ele permite que os projetistas de banco de dados compreendam os requisitos do sistema e planejem a estrutura de armazenamento dos dados de forma eficiente.
+                </p>
+            </div>
+
+    
+            <h4 class="definicao" style="color: #0459c2dd; margin-right: 76.4%; font-weight: 500; font-size: 22px; text-align: center;text-align: left;">Onde posso criar o DER e MER?<button id="botao3" style="margin-bottom: 20px; margin-left: 5px;">▼</button></h4>
+            <div id="texto3" style="display: none;">
+                <p style="text-align: left;">Bom para você criar o DER e o MER, você pode utilziar ferramentas online's como o <em style=" color:#0459c2dd ;">Draw.io</em>. Outras opções populares incluem o Lucidchart, o Gliffy e o Creately. Essas ferramentas também oferecem recursos semelhantes, permitindo que você crie DERs e MERs de maneira visual e mais interativa.
+                </p>
+            </div>
+        </div>
+    
+        <div class="conteúdos_pp">
+            <h3 style="color: #0459c2dd; font-weight: 700; font-size: 29px;">Linguagem SQL</h3>
+            <h4 class="definicao" style="color: #0459c2dd; margin-right: 81.6%; font-weight: 500; font-size: 22px; text-align: left;">DQL<button style="margin-bottom: 20px;" id="botao4" >▼</button></h4>
+            <div id="texto4" style="display: none;">
+                <p style="text-align: left;">DQL (Data Query Language) é uma parte do SQL (Structured Query Language) que se concentra na recuperação de dados de um banco de dados. Ele é usado para executar consultas e extrair informações específicas das tabelas. Foram usados alguns comando DQL nesse trabalho, como:
+                    <div class="gap" style="height: 10px;"></div>
+                        <p style="text-align: left;">- SELECT: comando mais comumente usado em DQL. Ele recupera dados de uma ou mais tabelas com base em critérios específicos.
+                    </p>
+                        <p style="text-align: left;">- FROM: Especifica a tabela ou tabelas das quais os dados serão recuperados.
+                        </p>
+                        <p style="text-align: left;">- ORDER BY: Classifica os resultados em ordem ascendente ou descendente com base em uma ou mais colunas.
+                    </p>
+                    <p style="text-align: left;">- GROUP BY: Agrupa os resultados com base em uma ou mais colunas e permite a aplicação de funções de agregação, como COUNT, SUM, AVG, etc.
+                    </p>
+                    <div class="gap" style="height: 10px;"></div>
+                    <p style="text-align: left;">
+                            O comando WHERE desempenha um papel crucial no DML ao realizar operações de consulta, atualização ou exclusão de dados. O WHERE é usado para especificar condições que filtram os registros que serão afetados pela operação.
+                    </p>
+                    </div>
+            <h4 class="definicao" style="color: #0459c2dd; margin-right: 82%; font-weight: 500; font-size: 22px; text-align: left;">DML<button id="botao5" style="margin-bottom: 20px; margin-left: 5px;">▼</button></h4>
+            <div id="texto5" style="display: none;">
+                <p style="text-align: left;">A DML (Data Definition Language) lida com a definição das estruturas de dados no banco de dados. 
+                    <div class="gap" style="height: 10px;"></div>
+                        <p style="text-align: left;">- SELECT: Recupera registros de uma tabela ou tabelas relacionadas.</p>
+                        <p style="text-align: left;">- UPDATE: Atualiza registros existentes em uma tabela.</p>
+                        <p style="text-align: left;">- DELETE: Exclui registros de uma tabela.
+                    </p>
+                    <div class="gap" style="height: 10px;"></div>
+                    <p style="text-align: left;">
+                        O comando WHERE desempenha um papel crucial no DML ao realizar operações de consulta, atualização ou exclusão de dados. O WHERE é usado para especificar condições que filtram os registros que serão afetados pela operação.
+                    </p>
+                    <div class="gap" style="height: 10px;"></div>
+                    <p style="text-align: left;">
+                        Se você não usar a cláusula WHERE no DML, as operações de consulta, atualização ou exclusão serão aplicadas a todos os registros da tabela-alvo. Isso pode resultar em efeitos indesejados, como a modificação ou exclusão de todos os registros em uma tabela, ou a recuperação de todos os registros em uma consulta, incluindo aqueles que você pode não precisar.
+                </p>
+            </div>
+            <h4 class="definicao" style="color: #0459c2dd; margin-right: 82%; font-weight: 500; font-size: 22px; text-align: left;">DDL<button id="botao6" style="margin-bottom: 20px; margin-left: 5px;">▼</button></h4>
+            <div id="texto6" style="display: none;">
+                <p style="text-align: left;">A DDL (Data Definition Language) lida com a definição das estruturas de dados no banco de dados. 
+                <div class="gap" style="height: 10px;"></div>
+                <p style="text-align: left;">
+                    <p style="text-align: left;">- CREATE TABLE: Cria uma nova tabela no banco de dados.</p>
+                    <p style="text-align: left;">- ALTER TABLE: Modifica a estrutura de uma tabela existente, como adicionar, modificar ou excluir colunas.</p>
+                    <p style="text-align: left;">- DROP TABLE: Exclui uma tabela do banco de dados.
+                </p>
+                <div class="gap" style="height: 10px;"></div>
+                <p style="text-align: left;">Categoria de comandos permite a definição das estruturas que organizam os dados e garantem a integridade do banco de dados.
+                </p>
+            </div>
+            </div>
+    
+            <div class="conteúdos_vtd">
+                <h3 style="color: #0459c2dd; font-weight: 700; font-size: 29px;">Ferramentas para Criar o Banco de Dados</h3>
+                <h4 class="definicao" style="color: #0459c2dd; margin-right: 81.6%; font-weight: 500; font-size: 22px; text-align: left;">PostGreSql
+                    <button style="margin-bottom: 20px;" id="botao9" >▼</button></h4>
+                <div id="texto9" style="display: none;">
+                    <p style="text-align: left;">
+
+                        O PostgreSQL é um poderoso sistema de gerenciamento de banco de dados relacional (SGBDR) de código aberto. Ele foi desenvolvido com foco em conformidade com os padrões ANSI SQL e oferece uma ampla gama de recursos avançados para atender às necessidades de aplicativos de diferentes tamanhos e complexidades.
+                    </p>     
+                    <div class="gap" style="height: 10px;"></div>
+                    <p style="text-align: left;">       
+                        O PostgreSQL é amplamente utilizado em diversos cenários, desde aplicativos web simples até grandes sistemas corporativos.
+
+                    </p>
+                </div>
+            </div>
+
+                <div class="conteúdos_vtd">
+                    <h3 style="color: #0459c2dd; font-weight: 700; font-size: 29px;">Modelagem de Dados (2)</h3>
+                        <h4 class="definicao" style="color: #0459c2dd; margin-right: 81.6%; font-weight: 500; font-size: 22px; text-align: left;">1ª forma normal
+                        <button style="margin-bottom: 20px;" id="botao10" >▼</button></h4>
+                    <div id="texto10" style="display: none;">
+                        <p style="text-align: left;">
+                            1ª Forma Normal (1NF): Nesta forma, as tabelas devem ser tabulares, ou seja, cada valor em uma coluna deve ser único e indivisível, não sendo permitido agrupar múltiplos valores em uma única célula. Além disso, cada tabela deve possuir uma chave primária única, que identifica de forma exclusiva cada registro.
+                        </p>
+                        </div>
+                        <h4 class="definicao" style="color: #0459c2dd; margin-right: 81.6%; font-weight: 500; font-size: 22px; text-align: left;">2ª forma normal
+                            <button style="margin-bottom: 20px;" id="botao11" >▼</button></h4>
+                        <div id="texto11" style="display: none;">
+                            <p style="text-align: left;">
+                            2ª Forma Normal (2NF): Além de atender aos critérios da 1NF, nesta forma, cada coluna que não faz parte da chave primária deve depender completamente da chave primária, e não de apenas uma parte dela. Isso significa que as dependências funcionais devem ser eliminadas, movendo as colunas dependentes para outras tabelas, evitando redundância e inconsistências nos dados.
+                            </p>
+                    </div>
+        <h4 class="definicao" style="color: #0459c2dd; margin-right: 82%; font-weight: 500; font-size: 22px; text-align: center; text-align: left;">3ª Forma Normal<button id="botao12" style="margin-bottom: 20px; margin-left: 5px;">▼</button></h4>
+        <div id="texto12" style="display: none;">
+        <p style="text-align: left;">
+            3ª Forma Normal (3NF): Além de atender aos critérios da 2NF, nesta forma, não devem existir dependências transitivas entre as colunas não chave. Ou seja, uma coluna não chave não deve depender de outra coluna não chave. Para eliminar essas dependências, é necessário criar tabelas adicionais e organizar as informações de forma mais granular, evitando duplicação de dados e garantindo a integridade e a consistência das informações.
+
+
+        </p>
+        </p>
+          </div>
+              </div>
+    </section>
+
+    <h3 style="color: #0459c2dd; font-weight: 700; font-size: 50px; margin-top: 200px; margin-bottom: 100px; "><p>Alguns exemplos de DER</h3></p>
+
+    <section id="Linguagens">
+        <div class="carousel" style="border: 5px; border-style: solid; border-color: black; border-radius: 15px; margin-top: 200px; ">
+            <div class="carousel-inner" style="border-radius: 13px;">
+                <div class="carousel-item active">
+                    <img src="/imagens/Exercicio 01 Estrutura de dados.drawio.png">
+                  
+                </div>
+        <div class="carousel-item">
+            <img src="/imagens/Exercicio 02 Estrutura de dados.drawio(1).png">
+                
+                </div>
+        <div class="carousel-item">
+            <img src="/imagens/Exercicio 03 Estrutura de dados.drawio.jpeg">
+                
+                </div>
+        <div class="carousel-item">
+            <img src="/imagens/Exercicio 04 Estrutura de dados.drawio.png">
+                
+                    </div>
+                    <div class="carousel-controls">
+                    <div class="carousel-control prev" onclick="changeSlide(-1)">❮</div>
+                    <div class="carousel-control next" onclick="changeSlide(1)">❯</div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+
+        <h3 style="color: #0459c2dd; font-weight: 700; font-size: 50px; margin-top: 200px; margin-bottom: 100px; "><p>Projetos Desenvolvidos</h3></p>
+
+        <section id="Meus_Projetos">
+            <div class="projetos">
+              <div class="video-container">
+                <video id="meu-video" controls width="400" height="auto">
+                  <source src="/imagens/pgAdmin 4 2023-06-15 17-32-53.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="button-container"">
+                <a href="https://github.com/Vincenzo140/faculdade-projetos-banco-de-dados/blob/main/Lista%20de%20projetos%20da%20faculdade/Banco_Dados/Postegre/DEPARTAMENTO.sql">
+                    <button class="button" style="
+                    margin-right: 40px; margin-top: 130px; height: 100px; width: 100px; border-radius: 50px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z" fill="white"></path>
+                        </svg>
+                    </button>
+                </a>
+            </div>
+           
+              <div class="text-container" style="font-size: 20px; font-family: Helvetica;">
+                <h4 style="font-size: larger; color: #0459c2dd;">Projetos Desenvolvidos com o uso do PgAdmin4</h4>
+                <p>Neste projeto nós Utilizamos o PgAdimin para criar um banco de dados, sobre uma agência</p>
+                <h4 style="font-size: larger; color: #0459c2dd;">Como Construímos este projeto?</h4>
+                <p>O projeto envolve a criação de um banco de dados para armazenar informações sobre departamentos, cursos, disciplinas, alunos e matrículas. Cada tabela representa uma entidade específica e possui colunas que definem os atributos dessas entidades.</p>
+
+                <p> Por exemplo, a tabela "Departamentos" guarda informações sobre os departamentos, como a sigla e o nome. A tabela "Cursos" está relacionada aos departamentos e guarda informações sobre os cursos, como a sigla e o nome. A tabela "Disciplinas" guarda informações sobre as disciplinas, como a sigla, o nome e se são optativas.</p>
+                    
+                <p>A tabela "Alunos" guarda informações dos alunos, como o RA, o CPF, o nome, a data de nascimento e o status. E a tabela "Disciplina_Alunos" relaciona as disciplinas com os alunos, registrando a matrícula em uma determinada disciplina. </p>
+                    
+                <p>Essas tabelas permitem o armazenamento e a consulta de informações relacionadas a departamentos, cursos, disciplinas, alunos e matrículas, facilitando a gestão desses dados.</p>
+              </div>
+            </div>
+        </section>
+
+
+
+    <footer style="margin-top: 100px;">
+        <p><h4>
+            <p style="color: rgb(245, 245, 245)">Todos os Direitos Reservados a mim 2023 ;</p>
+        </h4></p>
+    </footer>
+
+
+    <script>
+        function toggleTexto(botaoId, textoId) {
+          const botao = document.getElementById(botaoId);
+          const texto = document.getElementById(textoId);
+        
+          botao.addEventListener('click', function() {
+            if (texto.style.display === 'none') {
+              texto.style.display = 'block';
+            } else {
+              texto.style.display = 'none';
+            }
+          });
+        }
+            toggleTexto(  'botaoo',   'textoo');
+            toggleTexto( 'botao1',  'texto1');
+          
+            toggleTexto( 'botao3',  'texto3');
+            toggleTexto( 'botao4',  'texto4');
+            toggleTexto( 'botao5',  'texto5');
+            toggleTexto( 'botao6',  'texto6');
+            
+            toggleTexto( 'botao9',  'texto9');
+            toggleTexto('botao10', 'texto10');
+            toggleTexto('botao11', 'texto11');
+            toggleTexto('botao12', 'texto12');
+            toggleTexto('botao13', 'texto13');
+            toggleTexto('botao14', 'texto14');
+            toggleTexto('botao15', 'texto15');
+            toggleTexto('botao16', 'texto16');
+            toggleTexto('botao17', 'texto17');
+            toggleTexto('botao18', 'texto18');
+            toggleTexto('botao19', 'texto19');
+            toggleTexto('botao21', 'texto21');
+            toggleTexto('botao22', 'texto22');
+
+
+
+
+            </script>
+        
+
+</body>
+<script src="script.js"></script>
+</html>

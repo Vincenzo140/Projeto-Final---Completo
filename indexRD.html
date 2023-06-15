@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=0.67">
+    <title>Redes</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+
+<body style="justify-content: center; text-align: center; "> 
+
+    <header>
+        <nav>
+          <ul>
+            <li><pre style="font-size: 35px;">&lt;/&gt;</pre></li>
+            <li><a href="#Sobre_mim">Sobre Mim</a></li>
+            <li><a href="#contatos">Contatos</a></li>
+            <li><a href="#Meus_Projetos">Meus Projetos</a></li>
+            <li class="dropdown">
+                <button class="dropbtn">
+                  <a href="#Conteudos">Conteúdos Aprendidos</a>
+                </button>
+                <div class="dropdown-content">
+                  <a href="/indexLP.html">Linguagem de Programação</a>
+                  <a href="/indexRD.html">Redes</a>
+                  <a href="/indexBD.html">Banco de Dados</a>
+                  <a href="/indexCD.html">Ciência de Dados</a>
+                  <a href="/indexAI.html">Automação Industrial</a>
+                </div>
+            <li>
+                <input type="checkbox" id="chk" class="checkbox">
+                <label for="chk" class="label">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                  <span class="ball"></span>
+                </label>
+                
+            </li>
+              </li>
+          </ul>
+        </nav>
+    </header>
+    <a href="/index.html"><button style="height:50px; width: 70px; border-radius: 10px; background-color: #0459c2dd; color: #f5f5f5; font-size: 18px; margin-right:70%;margin-top: 20px;">Voltar</button></a>
+
+    <h3 style="color: #0459c2dd; font-weight: 700; font-size: 59px; margin-top: 30px; margin-bottom: 90px;"><p>Redes</h3></p>
+
+    <div class="conteúdos_redes">
+        <h3 style="color: #0459c2dd; font-weight: 700; font-size: 29px;">Sobre Redes (tecnologia da informação e conectividade)</h3>
+        <h4 class="definicao" style="color: #0459c2dd; font-weight: 500; font-size: 22px; text-align: left;">O que é?<button style="margin-bottom: 20px;" id="botao1">▼</button></h4>
+        <div id="texto1" style="display: none;">
+          <p style="text-align: left;">Na disciplina de Tecnologia da Informação e Conectividade, mas conhecido por redes, aprendemos bastante sobre diversos assuntos e tópicos à comunicação de dados e redes de computadores. Vou resumir cada um desses tópicos de forma calara e usando exemplos.</p>
+          <p style="text-align: left;">As redes de computadores: São sistemas que permitem a comunicação entre diferentes dispositivos, como computadores, smartphones e servidores. Essas redes podem ser locais como as (LAN's), como a rede Wi-Fi presente em nossas casas, ou podem se estender por áreas maiores, como redes metropolitanas (MAN) e redes de longa distância (WAN), como a internet.</p>
+        </div>
+        <h4 class="definicao" style="color: #0459c2dd; font-weight: 500; font-size: 22px; text-align: left;">Modelo OSI<button style="margin-bottom: 20px;" id="botao2">▼</button></h4>
+        <div id="texto2" style="display: none;">
+          <p style="text-align: left;">É um modelo de referência que divide o processo de comunicação em sete camadas, cada uma com funções específicas. Essas camadas vão desde a camada física, que lida com a transmissão de sinais elétricos ou ópticos, até a camada de aplicação, que lida com os programas e serviços usados pelos usuários. O modelo OSI ajuda a entender como os diferentes componentes de uma rede interagem entre si.</p>
+        </div>
+        <h4 class="definicao" style="color: #0459c2dd; font-weight: 500; font-size: 22px; text-align: left;">Topologia de Redes<button style="margin-bottom: 20px;" id="botao3">▼</button></h4>
+        <div id="texto3" style="display: none;">
+          <p style="text-align: left;">Tem como forma os dispositivos em uma rede estão conectados uns aos outros. Existem várias topologias, como a topologia em estrela, em que todos dispositivos se conectam a um ponto central, e a topologia em anel, em que os dispositivos formam um anel fechado. Cada topologia tem vantagens e desvantagens em termos de custo, desempenho e confiabilidade.</p>
+        </div>
+        <h4 class="definicao" style="color: #0459c2dd; font-weight: 500; font-size: 22px; text-align: left;">Tipos de Redes<button style="margin-bottom: 20px;" id="botao4">▼</button></h4>
+        <div id="texto4" style="display: none;">
+          <p style="text-align: left;">LAN (Local Area Network): É uma rede local que abrange uma área limitada, como uma casa, escritório ou escola. Por exemplo, a rede Wi-Fi em sua casa.</p>
+          <p style="text-align: left;">MAN (Metropolitan Area Network): É uma rede que abrange uma área geográfica maior, como uma cidade. Por exemplo, uma empresa com filiais em diferentes locais da cidade interconectadas.</p>
+          <p style="text-align: left;">WAN (Wide Area Network): É uma rede de longa distância que se estende por uma grande área, como um país ou até mesmo globalmente, como a internet. Por exemplo, a conexão de rede que permite a comunicação entre diferentes países.</p>
+          <p style="text-align: left;">CAN (Campus Area Network): É uma rede que abrange um campus universitário, parque industrial ou local semelhante. Por exemplo, uma universidade interligando seus prédios e laboratórios.</p>
+          <p style="text-align: left;">PAN (Personal Area Network): É uma rede pessoal que conecta dispositivos de curto alcance, geralmente pertencentes a uma única pessoa. Por exemplo, a conexão Bluetooth entre um smartphone e fones de ouvido sem fio.</p>
+        </div>
+        <h4 class="definicao" style="color: #0459c2dd; font-weight: 500; font-size: 22px; text-align: left;">Endereço MAC<button style="margin-bottom: 20px;" id="botao5">▼</button></h4>
+        <div id="texto5" style="display: none;">
+          <p style="text-align: left;">É um identificador único atribuído a cada dispositivo de rede. É como o RG de um dispositivo de rede, pois cada dispositivo possui um endereço MAC exclusivo que é definido de fábrica.</p>
+        </div>
+        <h4 class="definicao" style="color: #0459c2dd; font-weight: 500; font-size: 22px; text-align: left;">IPV4 e IPV6<button style="margin-bottom: 20px;" id="botao6">▼</button></h4>
+        <div id="texto6" style="display: none;">
+          <p style="text-align: left;">O IPv4 é um tipo de endereço que os computadores usam para se comunicar na internet. Ele é composto por quatro conjuntos de números separados por pontos, como 192.168.0.1. No entanto, o IPv4 está ficando sem endereços disponíveis devido ao crescimento da internet. O IPv6 é uma versão mais recente do protocolo de internet e foi projetado para substituir gradualmente o IPv4. Ele usa endereços de IP de 128 bits, permitindo um número muito maior de combinações possíveis e oferecendo melhor segurança e eficiência.</p>
+        </div>
+      </div>
+
+
+       <section id="Linguagens">
+    <div class="carousel" style="border: 5px; border-style: solid; border-color: black; border-radius: 15px; margin-top: 200px; ">
+        <div class="carousel-inner" style="border-radius: 13px;">
+            <div class="carousel-item active">
+                <img src="/imagens/anel.png">
+                <div class="carousel-item-text">
+                    <h3>Anel</h3>
+
+                    <p style="font-size: 19px;"> Os nós são configurados em um padrão circular. Os dados viajam por cada dispositivo à medida que percorrem o anel. Em uma grande rede, repetidores podem ser necessários para evitar a perda de pacotes durante a transmissão. As topologias em anel podem ser configuradas como anel único (half-duplex) ou anel duplo (full-duplex) para permitir que o tráfego flua em ambas as direções simultaneamente..
+
+                    </p>
+                </div>
+            </div>
+    <div class="carousel-item">
+        <img src="/imagens/duplo anel (1).png">
+            <div class="carousel-item-text">
+                <h3>Duplo Anel</h3>
+
+                    <p style="font-size: 19px;">A topologia de rede duplo anel é um tipo de arranjo em que os dispositivos de rede são conectados formando dois anéis independentes. Cada anel possui um caminho de comunicação distinto, permitindo que os dados sejam transmitidos em direções opostas. Essa topologia é caracterizada pela redundância e alta disponibilidade, já que se um caminho falhar, a comunicação pode ser roteada pelo outro anel. Os dados são transferidos de um dispositivo para o próximo ao longo dos anéis, até alcançar o destino desejado.</p>
+                </div>
+            </div>
+    <div class="carousel-item">
+        <img src="/imagens/arvore.png">
+            <div class="carousel-item-text">
+                <h3>Árvore ou Hierárquica</h3>
+
+                    <p style="font-size: 19px;">Um nó central conecta hubs secundários. Esses hubs têm uma relação pai-filho com os dispositivos. O eixo central é como o tronco da árvore. Onde as ramificações se conectam estão os hubs secundários ou nós de controle e, em seguida, os dispositivos conectados são anexados aos branches.
+
+                    </p>
+                </div>
+        </div>
+<div class="carousel-item">
+    <img src="/imagens/barramento.png">
+        <div class="carousel-item-text">
+            <h3>Barramento</h3>
+            
+            <p style="font-size: 19px;">Também chamada de topologia de backbone, bus ou linha, orienta os dispositivos ao longo de um único cabo que vai de uma extremidade da rede à outra. Os dados fluirão ao longo do cabo conforme ele se desloca até seu destino.
+            </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="/imagens/estrela estendida.png">
+                    <div class="carousel-item-text">
+                        <h3>Estrela Estendida</h3>
+                        
+                    <p style="font-size: 19px;">A topologia de rede "estrela estendida" é uma interconexão de várias redes em topologia estrela, formando uma rede maior. Cada rede local possui seu próprio hub central, e esses hubs são conectados entre si por enlaces adicionais. Essa configuração permite expandir a rede, conectando diferentes segmentos ou locais geograficamente distribuídos. É comumente usada em ambientes empresariais, proporcionando organização, escalabilidade e facilidade na administração da rede.
+
+                    </p>
+                        </div>
+                    </div>
+        <div class="carousel-item">
+            <img src="/imagens/malha.png">
+                <div class="carousel-item-text">
+                    <h3>Malha</h3>
+                    
+                <p style="font-size: 19px;">Os nós são interconectados. Os modos full-mesh conectam todos os dispositivos na rede diretamente. Em uma topologia de malha parcial, a maioria dos dispositivos se conecta diretamente. Isso oferece vários caminhos para entrega de dados. Os dados são entregues pela distância mais curta disponível para transmissão.
+
+                </p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="/imagens/mista.png">
+                        <div class="carousel-item-text">
+                            <h3>Mista</h3>
+                            
+                        <p style="font-size: 19px;">A topologia de rede mista é uma combinação de diferentes tipos de topologias em uma única rede. Nessa abordagem, múltiplas topologias são conectadas para formar uma rede mais complexa e flexível. Por exemplo, é possível combinar elementos de topologias em estrela, barramento ou anel em um único ambiente de rede. Essa abordagem é adotada quando é necessário atender a requisitos específicos de diferentes áreas ou departamentos, permitindo a personalização da rede de acordo com as necessidades de cada segmento.
+
+                        </p>
+                            </div>
+                        </div>
+                <div class="carousel-item">
+                    <img src="/imagens/estrela.png">
+                        <div class="carousel-item-text">
+                            <h3>Estrela</h3>
+                            
+                        <p style="font-size: 19px;">É o tipo de configuração mais comum. A rede é organizada de forma que os nós sejam conectados a um hub central, que atua como um servidor. O hub gerencia a transmissão de dados pela rede. Ou seja, qualquer dado enviado pela rede viaja pelo hub central antes de terminar em seu destino.
+                        </p>
+                            </div>
+                        </div>
+                <div class="carousel-controls">
+                <div class="carousel-control prev" onclick="changeSlide(-1)">❮</div>
+                <div class="carousel-control next" onclick="changeSlide(1)">❯</div>
+            </div>
+        </div>
+    </div>
+    </section>
+      
+      
+    
+    <h3 style="color: #0459c2dd; font-weight: 700; font-size: 59px; margin-top: 250px; margin-bottom: 200px;"><p>Projetos Desenvolvidos</h3></p>
+
+    <section id="Meus_Projetos">
+        <div class="projetos">
+          <div class="video-container">
+            <video id="meu-video" controls width="400" height="auto">
+              <source src="/imagens/Cisco Packet Tracer - C__Users_Vincenzo Amendola_Downloads_cazaquistao_zimbabue.pkt 2023-06-12 13-42-32.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="button-container">
+            <a href="https://github.com/Vincenzo140/Projeto-de-Redes.git">
+                <button class="button" style="
+                margin-right: 40px; margin-top: 130px; height: 100px; width: 100px; border-radius: 50px;">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z" fill="white"></path>
+                    </svg>
+                </button>
+            </a>
+        </div>
+          <div class="text-container" style="font-size: 20px; font-family: Helvetica;">
+            <h4 style="font-size: larger; color: #0459c2dd;">Projeto simulador Cazaquistão X Zimbabue</h4>
+            <p>Neste projeto nós desenvolvemos em sala de aula um projeto que simulava a comunicação da redes, entre dois países bem afastados, entre eles o Cazaquistão e o Zimbabue. O Cazaquistão por sua vez  possuia ferramentas como servidores, roteadores, computadores e switch's, já o Zimbabue possuia apenas dois computadores e um switch e um roteador. 
+            </p>
+            <h4 style="font-size: larger; color: #0459c2dd;">Como Construímos este projeto?</h4>
+            <p>Neste projeto utilizamos um programa chamado Packet Tracer, ele é um dos mais conhecidos na área de redes, por simular muito bem como funciona cada componente de um ambiente de rede. O Packet Tracer é amplamente utilizado para fins educacionais e de treinamento, pois permite aos usuários criar e configurar redes virtuais, simulando dispositivos de rede, como roteadores, switches, computadores e servidores.
+            <h4 style="font-size: larger; color: #0459c2dd;"><em>Objetivo</em></h4>
+            <p>Este projeto consiste em basicamente em configurar uma rede inteiramente no Packet Tracer para permitir a comunicação entre o Cazaquistão e Zimbábue. Isso é feito conectando "fisicamente", (no entanto se tratando de uma simulação), na onde conectamos os dispositivos, atribuindo neles endereços IP a cada um deles, configurando as rotas nos roteadores e testando a conectividade deles. O objetivo é estabelecer uma comunicação eficiente entre os  dois países simulados no software. </p>
+            <h4 style="font-size: larger; color: #0459c2dd; font-weight: bolder;"> <em>FeedBack</em></h4>
+            <p>Como FeedBack final deste projeto, acredito que ele foi fundamental para enterdermos, como funciona a comunicação de redes entre dois pontos mesmo que distantes, deu para ter uma noção de como funciona. </p>
+          </div>
+        </div>
+        <div class="projetos">
+            <div class="video-container">
+              <video id="meu-video" controls width="400" height="auto">
+                <source src="/imagens/Cisco Packet Tracer - C__Users_Vincenzo Amendola_Downloads_Rede ISP (1).pkt 2023-06-12 14-57-16.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="button-container">
+                <a href="https://github.com/Vincenzo140/Projeto-de-Redes-2.git">
+                    <button class="button" style="
+                    margin-right: 40px; margin-top: 130px; height: 100px; width: 100px; border-radius: 50px;">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 0.296997C5.37 0.296997 0 5.67 0 12.297C0 17.6 3.438 22.097 8.205 23.682C8.805 23.795 9.025 23.424 9.025 23.105C9.025 22.82 9.015 22.065 9.01 21.065C5.672 21.789 4.968 19.455 4.968 19.455C4.422 18.07 3.633 17.7 3.633 17.7C2.546 16.956 3.717 16.971 3.717 16.971C4.922 17.055 5.555 18.207 5.555 18.207C6.625 20.042 8.364 19.512 9.05 19.205C9.158 18.429 9.467 17.9 9.81 17.6C7.145 17.3 4.344 16.268 4.344 11.67C4.344 10.36 4.809 9.29 5.579 8.45C5.444 8.147 5.039 6.927 5.684 5.274C5.684 5.274 6.689 4.952 8.984 6.504C9.944 6.237 10.964 6.105 11.984 6.099C13.004 6.105 14.024 6.237 14.984 6.504C17.264 4.952 18.269 5.274 18.269 5.274C18.914 6.927 18.509 8.147 18.389 8.45C19.154 9.29 19.619 10.36 19.619 11.67C19.619 16.28 16.814 17.295 14.144 17.59C14.564 17.95 14.954 18.686 14.954 19.81C14.954 21.416 14.939 22.706 14.939 23.096C14.939 23.411 15.149 23.786 15.764 23.666C20.565 22.092 24 17.592 24 12.297C24 5.67 18.627 0.296997 12 0.296997Z" fill="white"></path>
+                        </svg>
+                    </button>
+                </a>
+            </div>
+            <div class="text-container" style="font-size: 20px; font-family: Helvetica;">
+              <h4 style="font-size: larger; color: #0459c2dd;">Projeto simulador Rede ISP</h4>
+              <p>Neste projeto podemos notar o uso de ferramentas e elementos, como servidores, roteador (dentre eles o residencial e o empresarial), switch, modem, uma simulação do cloud e computadores e smartphones. 
+              </p>
+              <h4 style="font-size: larger; color: #0459c2dd;">Como Construímos este projeto?</h4>
+              <p>
+                No projeto, começamos conectando os smartphones e computadores a um roteador residencial, que é o dispositivo utilizado em casa para compartilhar a conexão de internet. Em seguida, conectamos esse roteador a um modem, que é responsável por estabelecer a conexão com o provedor de internet.
+                </p>
+               <p> Além disso, há outro roteador que se conecta à nuvem, e esse roteador é conectado a um modem. O modem, por sua vez, está conectado a um roteador principal. A partir desse roteador principal, temos um switch que faz a conexão com dois servidores e três computadores. Essa estrutura permite que os dispositivos se comuniquem entre si e tenham acesso aos recursos dos servidores, tudo isso por meio de uma conexão em cascata e interconexões estratégicas entre os dispositivos de rede.
+
+                </p> 
+
+              <h4 style="font-size: larger; color: #0459c2dd;"><em>Objetivo</em></h4>
+              <p>O objetivo deste projeto é simular uma rede de computadores usando o Packet Tracer. Ele nos ajuda a entender como os dispositivos se conectam e se comunicam, desde computadores e smartphones até servidores e recursos na nuvem. Através dessa simulação, podemos aprender sobre as tecnologias de rede e como configurar os dispositivos para garantir uma conexão eficiente. O projeto visa proporcionar conhecimentos práticos e habilidades básicas na construção e configuração de redes de computadores.
+              </p>
+              <h4 style="font-size: larger; color: #0459c2dd; font-weight: bolder;"> <em>FeedBack</em></h4>
+              <p>
+                
+                O projeto foi excelente para o nosso aprendizado sobre redes de computadores. Conseguimos aplicar os conceitos teóricos na prática, construindo e configurando uma rede realista com o Packet Tracer. Isso nos proporcionou uma compreensão mais profunda do funcionamento dos componentes de rede e nos preparou para desafios futuros nessa área. Foi uma experiência valiosa para nosso conhecimento.
+
+              </p>
+            </div>
+          </div>
+      </section>
+
+    
+
+
+
+    <footer>
+        <p><h4>
+            <p style="color: rgb(245, 245, 245)">Todos os Direitos Reservados a mim 2023 ;</p>
+        </h4></p>
+    </footer>
+
+    <script>
+        function toggleTexto(botaoId, textoId) {
+          const botao = document.getElementById(botaoId);
+          const texto = document.getElementById(textoId);
+        
+          botao.addEventListener('click', function() {
+            if (texto.style.display === 'none') {
+              texto.style.display = 'block';
+            } else {
+              texto.style.display = 'none';
+            }
+          });
+        }   
+        
+            
+            toggleTexto( 'botao1',  'texto1');
+            toggleTexto( 'botao2',  'texto2');
+            toggleTexto( 'botao3',  'texto3');
+            toggleTexto( 'botao4',  'texto4');
+            toggleTexto( 'botao5',  'texto5');
+            toggleTexto( 'botao6',  'texto6');
+            toggleTexto( 'botao7',  'texto7');
+            toggleTexto( 'botao8',  'texto8');
+            toggleTexto( 'botao9',  'texto9');
+            toggleTexto('botao10', 'texto10');
+            toggleTexto('botao11', 'texto11');
+            toggleTexto('botao12', 'texto12');
+            toggleTexto('botao13', 'texto13');
+            toggleTexto('botao14', 'texto14');
+            toggleTexto('botao15', 'texto15');
+            toggleTexto('botao16', 'texto16');
+            toggleTexto('botao17', 'texto17');
+            toggleTexto('botao18', 'texto18');
+            toggleTexto('botao19', 'texto19');
+            toggleTexto('botao21', 'texto21');
+            toggleTexto('botao22', 'texto22');
+            </script>
+        
+
+</body>
+<script src="script.js"></script>
+</html>
+
